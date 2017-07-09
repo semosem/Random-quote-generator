@@ -1,0 +1,93 @@
+*{
+
+  margin:0;
+  padding: 0;
+
+}
+
+#container{
+
+  background-color: grey;
+  padding: 1em 0 0 0;
+
+}
+
+@-webkit-keyframes mymove {
+  0%{
+    opacity:0;
+
+  }
+
+100%{
+  opacity:1;
+
+}
+}
+
+#title {
+
+  background-color: white;
+  padding: 2em 0 2em 2em;
+}
+#quote_mat h1,p{
+
+  margin: 0;
+  font-weight: lighter;
+  font-family:cursive;
+  color: cornflowerblue;
+}
+#content_wrap {
+
+  padding: 2em;
+  background-color: cornflowerblue;
+
+
+}
+
+#quote_mat{
+
+  height: 20em;
+  background-color: green;
+  padding: inherit;
+
+}
+
+h1 {
+
+  font-size: 2em;
+  margin-left: 2em;
+
+}
+p {
+
+  font-size: 1em;
+  font-weight: bold;
+  margin: 2em;
+  width: 50%;
+
+}
+
+
+#btns{
+
+  background-color: yellow;
+
+
+}
+
+#generate_btn{
+
+    border:2px solid red;
+    margin:2em;
+    padding: 1em;
+
+}
+
+#tweet_btn{
+
+  border:2px solid blue;
+  padding: 1em;
+}
+p{
+  text-align: right;
+}
